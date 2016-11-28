@@ -6,7 +6,11 @@
     <link href="style.css" rel="stylesheet" type="text/css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
+
+
   <body>
+  <div class="container-fluid" >
+
     <div class="navi-bar">
     <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -17,34 +21,50 @@
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Blog</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
   </div>
 </nav>
-<div>
+</div>
 
-    <div class=mainBody >
-      <div class="image">
-      <img id="myPhoto" src="anil.jpg" alt="Kunchala Anil">
+<div class="container">
+  <div class="row">
+    <div class="introduction text-center col-md-11">
+    <h1> Hi, my name is Anil </h1>
+    <h2>and I'm a Tinker <br>
     </div>
 
-    <div class="mainContent">
-    <h1> KUNCHALA ANIL </h1>
-    <h2>I'm Just a Tinker <br>
-        <span class="quote">Jack of all trades, master of None </span> </h2>
-
-            <p>
-              “I run an online website geared toward helping
-              tinkers to cross hurdels in projects and
-              provide consulting service to people who are struggling with their
-              design”
-              <p>
-
-        <form action="#">
-          <input type="button" value="Hire Me">
-        </form>
-
+<div class="image col-md-1">
+      <img id="myPhoto" src="images/anil.jpg" alt="Kunchala Anil">
     </div>
   </div>
+</div>
+
+
+    <div class="container">
+      <div class="row">
+      <div class = "col-md-3" id="arduino">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="arduinoImage">
+        <p> Arduino </p>
+      </div>
+      <div class="col-md-3" id=raspberryPi>
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Raspberry_Pi_Logo.svg" alt="raspberry Pi Logo">
+        <p>Raspberry Pi</p>
+    </div>
+
+    <div class="col-md-3" id="nodeMcu">
+      <img src="images/nodemcu.png" alt="node mcu image">
+      <p>NodeMcu</p>
+    </div>
+
+    <div class="col-md-3" id="frontEnd">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Front-end-logo-color%402x.png" alt="front end logo">
+      <p>Front End </p>
+    </div>
+  </div>
+</div>
+</div>
+
   </body>
 <html>

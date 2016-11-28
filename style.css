@@ -3,13 +3,43 @@ body{
   background-color: #F8F8F8 !important;
 }
 .image{
-  width:250px;
-  height:280px;
-  border-radius: 50%
-}
+    height : 300px;
+    width : 300px;
+  }
 
 .image img{
-  height : 100%;
-  width : 100%;
+  height : 250px;
+  width : 270px;
   border-radius: 50%;
+
+}
+.introduction{
+  height:250px;
+  width : 400px;
+  margin : 0 auto;
+}
+
+
+
+#arduino img{
+  height:50px;
+  width : 50px;
+}
+#raspberryPi img{
+  height: 50px;
+  width : 50px;
+}
+
+
+#nodeMcu img{
+  height:50px;
+  width:50px;
+}
+
+#frontEnd img{
+  height:50px;
+  width:50px;
+}
+.col-mid-3{
+  margin:0 auto;
 }
