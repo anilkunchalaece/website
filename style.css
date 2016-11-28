@@ -8,8 +8,8 @@ body{
   }
 
 .image img{
-  height : 265px;
-  width : 250px;
+  height : 265px !important;
+  width : 250px !important;
   border-radius: 50%;
 
 }
@@ -17,34 +17,38 @@ body{
   height:250px;
   width : 400px;
   margin : 0 auto;
+  font-family: 'Cuprum', sans-serif;
 }
 
-
-
-#arduino img{
-  height:75px;
-  width : 75px;
-  display: block;
-  margin: 0 auto;
+.introduction-text{
+  font-size:50px;
+  color:#c3c3c3;
 }
-#raspberryPi img{
-  height: 75px;
-  width : 75px;
-  display: block;
-  margin: 0 auto;
+#name{
+  color : #AB8E4A;
 }
 
+.introduction-text2{
+  font-size:30px;
+}
 
-#nodeMcu img{
+.container-fluid img{
   height:75px;
   width:75px;
   display: block;
   margin: 0 auto;
 }
+.skillElectronics{
+  margin:10px;
+  padding : 10px
+}
 
-#frontEnd img{
-  height:75px;
-  width:75px;
-  display: block;
-  margin: 0 auto;
+.skillProgramming{
+  margin: 10px;
+  padding:10px;
+}
+
+.skill{
+  font-family: 'Proza Libre', sans-serif;
+  font-size:22px;
 }

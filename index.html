@@ -5,6 +5,9 @@
     <title> Anil Home Page </title>
     <link href="style.css" rel="stylesheet" type="text/css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+
   </head>
 
 
@@ -30,9 +33,9 @@
 
 <div class="container">
   <div class="row">
-    <div class="introduction text-center col-md-11">
-    <h1> Hi, my name is Anil </h1>
-    <h2>and I'm a Tinker <br>
+    <div class="text-center col-md-11">
+    <h1> <span class="introduction-text"> Hi, my name is <span id="name">Anil</span> </h1>
+    <h2><span class="introduction-text2">and I'm Just a Tinker</span> <br>
     </div>
 
 <div class="image col-md-1">
@@ -43,29 +46,44 @@
 
 
     <div class="container-fluid">
-      <div class="row">
-      <div class = "col-md-3" id="arduino">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="arduinoImage">
-        <p class="text-center"> Arduino </p>
+      <div class="row skillElectronics">
+      <div class = "col-md-2" id="arduino">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="arduino Logo">
+        <p class="text-center skill"> Arduino</p>
       </div>
       <div class="col-md-3" id=raspberryPi>
         <img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Raspberry_Pi_Logo.svg" alt="raspberry Pi Logo">
-        <p class="text-center">Raspberry Pi</p>
+        <p class="text-center skill">Raspberry Pi</p>
     </div>
 
-    <div class="col-md-3" id="nodeMcu">
+    <div class="col-md-2" id="nodeMcu">
       <img src="images/nodemcu.png" alt="node mcu image">
-      <p class="text-center">NodeMcu</p>
+      <p class="text-center skill">NodeMcu</p>
+    </div>
+    <div class="col-md-2" id="kiCad">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Kicad_logo_new.png" alt="kicad Logo">
+      <p class="text-center skill">Pcb Designing</p>
     </div>
 
-    <div class="col-md-3" id="frontEnd">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Front-end-logo-color%402x.png" alt="front end logo">
-      <p class="text-center">Front End </p>
-    </div>
+    <div class="col-md-3" id="fritzing">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Fritzing_icon.png" alt="fritzing logo">
+      <p class="text-center skill"> Fritzing </p>
   </div>
+  </div>
+
+    <div class="row skillProgramming">
+    <div class="col-md-4" id="frontEnd">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Front-end-logo-color%402x.png" alt="frontend logo">
+      <p class="text-center skill">Front End </p>
+    </div>
+    <div class="col-md-4" id="pyQt4">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="Matlab">
+      <p class="text-center skill"> Matlab / Simulink </p>
+  </div>
+  <div class="col-md-4" id="matlab">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Python_and_Qt.svg/460px-Python_and_Qt.svg.png" alt="pyQt Logo">
+    <p class="text-center skill">PyQt GUI </p>
 </div>
-
-
 </div>
 
   </body>
