@@ -17,20 +17,18 @@ body{
   height:250px;
   width : 400px;
   margin : 0 auto;
-  font-family: 'Cuprum', sans-serif;
+  padding:0px 0 0 0;
 }
 
 .introduction-text{
   font-size:50px;
-  color:#c3c3c3;
+  color : #2DA2BF;
+  font-family: 'Lobster', cursive;
 }
 
 #name{
-  color : #AB8E4A;
-}
-
-.introduction-text2{
-  font-size:30px;
+  color : #DA1F28;
+  font-size: 50px;
 }
 
 .container-fluid img{
@@ -50,9 +48,37 @@ body{
 }
 
 .skill{
-  font-family: 'Proza Libre', sans-serif;
-  font-size:30px;
+  font-family: 'Cuprum', sans-serif;
+  font-size:25px;
 }
 .container-skills{
-  width:80%;
+  width:70%;
+}
+
+#whatIDo{
+  font-size:18px;
+  color:black !important;
+  font-family: 'Cuprum', sans-serif;
+
+
+}
+
+hr{
+  background-color: #ed1d61;
+  padding-bottom: 1px;
+  }
+
+  .belowHeading{
+    font-size:30px;
+    padding:0;
+    margin:0;
+    position:relative;
+    top: 20px;
+    font-family: 'Cuprum', sans-serif;
+  }
+#leaf{
+  font-size:40px;
+  color : green;
+  position:relative;
+  top:20px;
 }
