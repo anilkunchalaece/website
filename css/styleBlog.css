@@ -1,0 +1,10 @@
+body{
+  background-color: #F8F8F8 !important;
+}
+
+.navbar-fixed-left {
+  width: 60px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}

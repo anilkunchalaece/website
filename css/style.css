@@ -1,0 +1,104 @@
+
+body{
+  background-color: #F8F8F8 !important;
+}
+.image{
+    height : 300px;
+    width : 300px;
+  }
+
+.image img{
+  height : 265px !important;
+  width : 250px !important;
+  border-radius: 50%;
+
+}
+.introduction{
+  height:250px;
+  width : 400px;
+  margin : 0 auto;
+  padding:0px 0 0 0;
+}
+
+.introduction-text{
+  font-size:50px;
+  color : #2DA2BF;
+  font-family: 'Lobster', cursive;
+  margin-top:60px;
+}
+
+#name{
+  color : #DA1F28;
+  font-size: 50px;
+}
+
+.container-fluid img{
+  height:50px;
+  width:50px;
+  display: block;
+  margin: 0 auto;
+}
+.skillElectronics{
+  margin:10px;
+  padding : 10px
+}
+
+.skillProgramming{
+  margin: 10px;
+  padding:10px;
+}
+
+.skill{
+  font-family: 'Cuprum', sans-serif;
+  font-size:25px;
+}
+.container-skills{
+  width:70%;
+}
+
+#whatIDo{
+  font-size:18px;
+  color:black !important;
+  font-family: 'Cuprum', sans-serif;
+
+
+}
+
+hr{
+  background-color: #ed1d61;
+  padding-bottom: 1px;
+  }
+
+  .belowHeading{
+    font-size:30px;
+    padding:0;
+    margin:0;
+    position:relative;
+    top: 20px;
+    font-family: 'Cuprum', sans-serif;
+  }
+#leaf{
+  font-size:40px;
+  color : green;
+  position:relative;
+  top:20px;
+}
+
+#phone{
+  font-size:40px;
+  color : green;
+  position:relative;
+  top:65px;
+  right:32px;
+}
+
+#cRight{
+  padding-top:280px;
+  padding-left: 300px;
+  align-items: center;
+}
+
+.navbar-icon{
+  font-size:60px;
+  font-weight: bold;
+}
