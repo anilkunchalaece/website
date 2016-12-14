@@ -7,6 +7,13 @@ body{
   height:40px;
 }
 
+.navbar-fixed{
+  position : relative;
+  bottom : -90px;
+}
+
+
+
 a {
   transition: width 2s;
 }
@@ -15,4 +22,30 @@ a:hover img{
    width : 120px;
    height : 80px;
 
+}
+#project1,#project4,#project7{
+  background-color: red;
+  margin : 10px 10px 10px 60px;
+
+}
+
+#project2,#project5,#project8{
+  background-color: blue;
+}
+
+#project3,#project6,#project9{
+  background-color: green;
+}
+
+
+
+.projectPost{
+  height : 265px;
+  width : 30%;
+  padding : 10px;
+  margin : 10px;
+}
+
+#project1,#project2{
+  width:36%;
 }
