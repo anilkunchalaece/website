@@ -6,3 +6,13 @@ body{
   width:60px;
   height:40px;
 }
+
+a {
+  transition: width 2s;
+}
+
+a:hover img{
+   width : 120px;
+   height : 80px;
+
+}
