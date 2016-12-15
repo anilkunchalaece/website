@@ -3,18 +3,15 @@ body{
 }
 
 #project1,#project4,#project7{
-  background-color: red;
 }
 
 #project2,#project5,#project8{
-  background-color: blue;
   margin-left: 0px;
   padding-left: 0px;
 
 }
 
 #project3,#project6,#project9{
-  background-color: green;
   margin-left: 0px;
   padding-left: 0px;
 
@@ -30,4 +27,10 @@ body{
   height:99%;
   width:99%;
   margin : 0;
+}
+
+#project4 img{
+  height: 60%;
+  width : 60%;
+  opacity:0.9;
 }
