@@ -2,50 +2,32 @@ body{
   background-color: #F8F8F8 !important;
 }
 
-.navbar-fixed img{
-  width:60px;
-  height:40px;
-}
-
-.navbar-fixed{
-  position : relative;
-  bottom : -90px;
-}
-
-
-
-a {
-  transition: width 2s;
-}
-
-a:hover img{
-   width : 120px;
-   height : 80px;
-
-}
 #project1,#project4,#project7{
   background-color: red;
-  margin : 10px 10px 10px 60px;
-
 }
 
 #project2,#project5,#project8{
   background-color: blue;
+  margin-left: 0px;
+  padding-left: 0px;
+
 }
 
 #project3,#project6,#project9{
   background-color: green;
+  margin-left: 0px;
+  padding-left: 0px;
+
 }
 
-
+.col-md-4{
+  height: 350px;
+  margin:0px;
+  padding:0px;
+}
 
 .projectPost{
-  height : 265px;
-  width : 30%;
-  padding : 10px;
-  margin : 10px;
-}
-
-#project1,#project2{
-  width:36%;
+  height:99%;
+  width:99%;
+  margin : 0;
 }
