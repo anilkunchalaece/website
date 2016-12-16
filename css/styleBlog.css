@@ -2,28 +2,17 @@ body{
   background-color: #F8F8F8 !important;
 }
 
-.project{
-  height:500px;
-  float:left;
-}
-
 .project img{
-  height : 200px;
-  border-radius: 30%;
+  height : 280px;
+  border-radius: 20%;
 }
 
 .description{
-  float:left;
-  padding-top:50px;
-  margin : 10px;
-  width : 50%;
+  padding-top:30px;
+  margin-botton:0px;
 }
 
 .image{
-  float:left;
-  margin-top:30px;
-}
-
-.floatNone{
-  float:none;
+  margin-top:10px;
+  margin-bottom: 0px;
 }
