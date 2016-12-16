@@ -1,8 +1,48 @@
+<!DOCTYPE html>
 <html>
 <head>
   <title> Gps Watch </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/styleProject.css">
 </head>
 <body>
-  this page is about GPS watch Project
+  <div class="container-fluid">
+      <div class="navi-bar">
+          <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <div class="navbar-header">
+                      <a class="navbar-brand" href="#">WebSiteName</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="../aboutMe.html">About</a></li>
+                      <li><a href="../portfolio.html">Portfolio</a></li>
+                      <li class="active"><a href="../blog.html">Blog</a></li>
+                      <li><a href="../contactMe.html">Contact</a></li>
+                  </ul>
+              </div>
+          </nav>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="page-header">
+    <h1> GPS Watch with Bluetooth Connectivity</h1>
+  </div>
+    I will break this project into Following steps
+    <ol>
+      <li> Receiving the GPS Data to the Arduino </li>
+      <li> Connecting Oled Display to the Arduino </li>
+      <li> Displaying the Received values in Oled Display </li>
+      <li> Connecting Bluetooth Modules </li>
+    </ol>
+       <a href ="../images/gpsTracker/gpsTrackerFritzing.png" target="_none"> <img src="../images/gpsTracker/gpsTrackerFritzing.png" class="img-responsive img-thumbnail"></a>
+       <p> Complete Circuit Diagram. please note that for simplification i ommitted all power and Ground Connections </p>
+    <h3> Step 1 : Receiving the GPS Data to the Arduino </h3>
+    The GPS i am using is Adafruit Ultimate GPS. you can find the information about it <a href="https://www.adafruit.com/product/746">here</a>. But the Instructions
+    mentioned here will work for almost any gps module out there which are using serial port to transfer data with fewer modifications.
+
+  </div>
 </body>
 </html>

@@ -1,0 +1,17 @@
+body {
+    background-color: #F8F8F8 !important;
+}
+
+img{
+  display : block;
+  margin : 0 auto !important;
+  width : 50%;
+}
+
+.container{
+  padding-right: 70px;
+}
+
+.page-header{
+  margin-top: 0px;
+}
