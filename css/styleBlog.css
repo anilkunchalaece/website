@@ -16,3 +16,11 @@ body{
   margin-top:10px;
   margin-bottom: 0px;
 }
+
+.projectData{
+  padding-left: 250px;
+}
+
+.sideMenu{
+  background-color:red;
+}
