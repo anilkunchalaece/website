@@ -1,26 +1,28 @@
-body{
-  background-color: #F8F8F8 !important;
+body {
+    background-color: #F8F8F8 !important;
 }
 
-.project img{
-  height : 280px;
-  border-radius: 20%;
+.project img {
+    height: 280px;
+    border-radius: 15%;
 }
 
-.description{
-  padding-top:30px;
-  margin-botton:0px;
+.description {
+    padding-top: 30px;
+    margin-botton: 0px;
 }
 
-.image{
-  margin-top:10px;
-  margin-bottom: 0px;
+.image {
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
-.projectData{
-  padding-left: 250px;
+.projectData {
+    padding-left: 200px;
 }
 
-.sideMenu{
-  background-color:red;
+.sideMenu {
+    background-color: red;
+    position:fixed;
+    height:100%;
 }
